@@ -1,0 +1,502 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  Font-size: 18px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*################################################################ first Section  #######################################################*/
+/* ################################################   NAVBAR   ###################################### */
+.Navbar {
+  padding: 1.5% 2% 1.5% 2%;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.Navbar ul {
+  float: right;
+  margin-right: 5%;
+}
+
+.Navbar ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.list-item, a {
+  text-decoration: none;
+  color: white;
+}
+
+.list-item:hover {
+  color: hsl(51, 100%, 49%);
+}
+
+.Contact-btn.list-item {
+  font-family: 'Fraunces', sans-serif;
+  border-radius: 20px;
+  padding: 9% 17% 9% 17%;
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
+}
+
+.Contact-btn.list-item:hover {
+  background-color: hsl(51, 100%, 49%);
+}
+
+/* #####################################first div Text################################## */
+.orange-div {
+  text-align: center;
+}
+
+.heading-1 {
+  font-family: 'Fraunces', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  margin-top: 5%;
+  margin-bottom: 11%;
+  text-transform: uppercase;
+}
+
+/* ######################################################################################################################################3 */
+/* ####################################################Second div######################################################################## */
+.text-div {
+  font-family: 'Barlow', sans-serif;
+  flex: 1;
+  overflow: hidden;
+}
+
+.text-div h1 {
+  font-family: 'Fraunces', sans-serif;
+  padding: 25% 7% 5% 7%;
+}
+
+.text-div p {
+  padding: 0 7% 2% 7%;
+}
+
+.rowA {
+  margin: 0 7% 20% 7%;
+  border-radius: 40px;
+  display: inline-block;
+  padding: 0 3% 0 3%;
+}
+
+.text-div a {
+  color: black;
+}
+
+.row1-a {
+  background-color: hsl(51, 100%, 49%);
+}
+
+.row2-a {
+  background-color: hsl(7, 99%, 70%);
+}
+
+.rowA:hover {
+  opacity: 0.6;
+}
+
+.div2-images {
+  margin: 0;
+  padding: 0;
+}
+
+/* ############################################### ROW 1 & 2 ##################################################### */
+.row1, .row2 {
+  display: flex;
+}
+
+.col2-text {
+  order: 2;
+}
+
+/* ############################################ THIRD DIV ################################################################################*/
+/* ################ PICS DIV COL 1 ################### */
+.third-div {
+  display: flex;
+}
+
+.div3-pics {
+  flex: 1;
+  overflow: hidden;
+  color: hsl(213, 9%, 39%);
+}
+
+.div3-pics h3 {
+  font-family: 'Fraunces', sans-serif;
+  padding: 60% 10% 3% 10%;
+  text-align: center;
+  font-weight: 900;
+}
+
+.div3-pics p {
+  font-family: 'Barlow', sans-serif;
+  text-align: center;
+}
+
+/* #################################### Testimonials ###################################################### */
+.heading {
+  font-family: 'Fraunces', sans-serif;
+  color: hsl(210, 4%, 67%);
+  font-weight: 700;
+  text-align: center;
+  padding: 5% 0 7% 0;
+}
+
+.testimonial-text {
+  display: flex;
+  font-family: 'Barlow', sans-serif;
+  padding: 0 3% 0 3%;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  margin: 0 0 7% 0;
+}
+
+.testimonial1 {
+  flex: 1;
+  text-align: center;
+  margin: 0 1% 0 0.5%;
+}
+
+.testimonial2 {
+  flex: 1;
+  text-align: center;
+  margin: 0 0.5% 0 0.5%;
+}
+
+.testimonial3 {
+  flex: 1;
+  text-align: center;
+  margin: 0 0.5% 0 1%;
+}
+
+.job {
+  color: hsl(210, 4%, 67%);
+  font-family: 'Barlow', sans-serif;
+}
+
+/* #################################################### FOURTH DIV ############################################################## */
+.fourth-div {
+  display: flex;
+  padding: 0;
+}
+
+/* ####################################################### FOOTER ############################################################################ */
+.footer {
+  padding: 2% 0 5% 0;
+  background-color: hsl(167, 40%, 24%);
+  color: hsl(168, 34%, 41%);
+  font-family: 'Barlow', sans-serif;
+}
+
+.title {
+  padding: 0 0 3% 0;
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 900;
+}
+
+.links {
+  text-align: center;
+}
+
+.links a {
+  font-weight: 400;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 2% 3% 2%;
+  color: hsl(168, 34%, 41%);
+}
+
+.contact-icons {
+  text-align: center;
+}
+
+.contact-icons img {
+  margin: 0 1% 0 1%;
+}
+
+.links a:hover {
+  color: white;
+}
+
+@media screen and (max-width: 400px) {
+  .collapse {
+    background-color: white;
+  }
+
+  .navbar-nav.navbar-center {
+    position: relative;
+    text-align: center;
+    transform: translatex(-50%);
+  }
+
+  .list-item {
+    padding: 7%;
+    color: black;
+  }
+
+  .Contact-btn.list-item {
+    position: relative;
+    right: 22%;
+    background-color: hsl(51, 100%, 49%);
+  }
+
+  .first {
+    background: url("images/mobile/image-header.jpg");
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .row1, .row2 {
+    flex-flow: column;
+    padding-bottom: 7%;
+  }
+
+  .text-div {
+    text-align: center;
+  }
+
+  .div2-images {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .col1Image {
+    content: url("images/mobile/image-transform.jpg");
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .col2Image {
+    content: url("images/mobile/image-stand-out.jpg");
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .col1-text {
+    order: 2;
+  }
+
+  .third-div {
+    flex-flow: column;
+  }
+
+  .third-1 {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .third-2 {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .third-div1 {
+    content: url("images/mobile/image-graphic-design.jpg");
+    overflow: hidden;
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  .pics-div1 {
+    position: absolute;
+    padding: 0 10% 5% 10%;
+    top: 30%;
+  }
+
+  .third-div2 {
+    content: url("images/mobile/image-photography.jpg");
+    overflow: hidden;
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  .pics-div2 {
+    position: absolute;
+    padding: 0 10% 5% 10%;
+    top: 35%;
+  }
+
+  .fourth-div {
+    display: block;
+  }
+
+  .fourth-div1 {
+    display: flex;
+  }
+
+  .fourth-div2 {
+    display: flex;
+  }
+
+  .fourth-div img {
+    max-width: 50%;
+  }
+
+  .fd1-1 {
+    content: url("images/mobile/image-gallery-milkbottles.jpg");
+  }
+
+  .fd1-2 {
+    content: url("images/mobile/image-gallery-orange.jpg");
+  }
+
+  .fd2-1 {
+    content: url("images/mobile/image-gallery-cone.jpg");
+  }
+
+  .fd2-2 {
+    content: url("images/mobile/image-gallery-sugar-cubes.jpg");
+  }
+
+  .testimonial-text {
+    flex-flow: column;
+  }
+
+  .testimonial1, .testimonial2, .testimonial3 {
+    padding-bottom: 10%;
+  }
+}
+
+@media screen and (min-width:401px) {
+  .first {
+    background: url("images/desktop/image-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .text-div {
+    text-align: left;
+  }
+
+  .text-div a {
+    text-align: center;
+  }
+
+  .div2-images {
+    max-height: 600px;
+    flex: 1;
+    overflow: hidden;
+  }
+
+  .col1Image {
+    content: url("images/desktop/image-transform.jpg");
+  }
+
+  .col2Image {
+    content: url("images/desktop/image-stand-out.jpg");
+  }
+
+  .text-div a {
+    text-align: left;
+  }
+
+  .third-div {
+    height: 600px;
+    position: relative;
+  }
+
+  .third-1 {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .third-2 {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .third-div1 {
+    content: url("images/desktop/image-graphic-design.jpg");
+    overflow: hidden;
+  }
+
+  .pics-div1 {
+    position: absolute;
+    padding: 0 10% 5% 10%;
+    top: 10%;
+  }
+
+  .third-div2 {
+    content: url("images/desktop/image-photography.jpg");
+    overflow: hidden;
+  }
+
+  .pics-div2 {
+    position: absolute;
+    padding: 0 10% 5% 10%;
+    top: 10%;
+  }
+
+  .fourth-div {
+    margin: 5% 0 0 0;
+  }
+
+  .fourth-div1 {
+    display: flex;
+    max-width: 50%;
+  }
+
+  .fourth-div2 {
+    display: flex;
+    max-width: 50%;
+  }
+
+  .fourth-div img {
+    max-width: 50%;
+  }
+
+  .fd1-1 {
+    content: url("images/desktop/image-gallery-milkbottles.jpg");
+  }
+
+  .fd1-2 {
+    content: url("images/desktop/image-gallery-orange.jpg");
+  }
+
+  .fd2-1 {
+    content: url("images/desktop/image-gallery-cone.jpg");
+  }
+
+  .fd2-2 {
+    content: url("images/desktop/image-gallery-sugarcubes.jpg");
+  }
+}
